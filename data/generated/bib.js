@@ -13,6 +13,7 @@
         "year": "2021"
     },
     "535087": {
+        "abstract": "We demonstrate how neural networks can be used in conjunction with simulation modeling for system design. This approach is used to achieve the opposite of what a simulation model can achieve: given a set of desired performance measures, the neural network outputs a suitable design to meet management goals. The methodology is presented using a real world application involving the Test Operation of a major semiconductor manufacturing facility",
         "author": "LeCroy, K. and Mollaghasemi, M. and Georgiopoulos, M.",
         "booktitle": "Southcon/96 Conference Record",
         "doi": "10.1109/SOUTHC.1996.535087",
@@ -116,6 +117,7 @@
         "year": "2019"
     },
     "chopra2023differentiableagentbasedepidemiology": {
+        "abstract": "Mechanistic simulators are an indispensable tool for epidemiology to explore the behavior of complex, dynamic infections under vary\u0002ing conditions and navigate uncertain environments. Agent-based models (ABMs) are an increasingly popular simulation paradigm that can represent the heterogeneity of contact interactions with granular detail and agency of individual behavior. However, con\u0002ventional ABM frameworks are not differentiable and present chal\u0002lenges in scalability; due to which it is non-trivial to connect them to auxiliary data sources. In this paper, we introduce GradABM: a scalable, differentiable design for agent-based modeling that is amenable to gradient-based learning with automatic differentiation. GradABM can quickly simulate million-size populations in few sec\u0002onds on commodity hardware, integrate with deep neural networks and ingest heterogeneous data sources. This provides an array of practical benefits for calibration, forecasting, and evaluating pol\u0002icy interventions. We demonstrate the efficacy of GradABM via extensive experiments with real COVID-19 and influenza datasets.",
         "archiveprefix": "arXiv",
         "author": "Ayush Chopra and Alexander Rodr\u00edguez and Jayakumar Subramanian and Arnau Quera-Bofarull and Balaji Krishnamurthy and B. Aditya Prakash and Ramesh Raskar",
         "eprint": "2207.09714",
@@ -127,6 +129,7 @@
         "year": "2023"
     },
     "kisamori2020modelbridgingconnectionsimulation": {
+        "abstract": "The interpretability of machine learning, particularly for deep neural networks, is crucial for decision making in real-world applications. One approach is replacing the un-interpretable machine learning model with a surrogate model, which has a simple structure for interpretation. Another approach is understanding the target system by using a simula\u0002tion modeled by human knowledge with interpretable simulation param\u0002eters. Recently, simulator calibration has been developed based on kernel mean embedding to estimate the simulation parameters as posterior dis\u0002tributions. Our idea is to use a simulation model as an interpretable surrogate model. However, the computational cost of simulator calibra\u0002tion is high owing to the complexity of the simulation model. Thus, we propose a \u201cmodel-bridging\u201d framework to bridge machine learning models with simulation models by a series of kernel mean embeddings to address these difficulties. The proposed framework enables us to ob\u0002tain predictions and interpretable simulation parameters simultaneously without the computationally expensive calculations of the simulations. In this study, we apply the proposed framework to essential simulations in the manufacturing industry, such as production simulation and fluid dynamics simulation.",
         "archiveprefix": "arXiv",
         "author": "Keiichi Kisamori and Keisuke Yamazaki and Yuto Komori and Hiroshi Tokieda",
         "eprint": "1906.09391",
