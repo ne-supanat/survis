@@ -7,7 +7,18 @@
   number={},
   pages={322-326},
   keywords={category:Calibration, ml: Neural networks, simulation: Discrete event simulation, application: Manufacture},
-  doi={10.1109/SOUTHC.1996.535087}}
+  doi={10.1109/SOUTHC.1996.535087},
+  abstract = {We demonstrate how neural networks can be used 
+in conjunction with simulation modeling for system 
+design. This approach is used to achieve the 
+opposite of what a simulation model can achieve: 
+given a set of desired performance measures, the 
+neural network outputs a suitable design to meet 
+management goals. The methodology is presented 
+using a real world application involving the Test 
+Operation of a major semiconductor manufacturing 
+facility }
+  }
 
 @misc{kisamori2020modelbridgingconnectionsimulation,
       title={Model Bridging: Connection between Simulation Model and Neural Network}, 
@@ -18,6 +29,20 @@
       primaryClass={stat.ML},
       url={https://arxiv.org/abs/1906.09391}, 
       keywords={category:Calibration, ml: Neural networks, simulation: Discrete event simulation, application: Manufacture, fluid dynamic simulation},
+      abstract={The interpretability of machine learning, particularly for deep
+neural networks, is crucial for decision making in real-world applications.
+One approach is replacing the un-interpretable machine learning model
+with a surrogate model, which has a simple structure for interpretation.
+Another approach is understanding the target system by using a simulation modeled by human knowledge with interpretable simulation parameters. Recently, simulator calibration has been developed based on kernel
+mean embedding to estimate the simulation parameters as posterior distributions. Our idea is to use a simulation model as an interpretable
+surrogate model. However, the computational cost of simulator calibration is high owing to the complexity of the simulation model. Thus,
+we propose a “model-bridging” framework to bridge machine learning
+models with simulation models by a series of kernel mean embeddings
+to address these difficulties. The proposed framework enables us to obtain predictions and interpretable simulation parameters simultaneously
+without the computationally expensive calculations of the simulations.
+In this study, we apply the proposed framework to essential simulations
+in the manufacturing industry, such as production simulation and fluid
+dynamics simulation.}
 }
 
 @misc{chopra2023differentiableagentbasedepidemiology,
@@ -29,6 +54,18 @@
       primaryClass={cs.LG},
       url={https://arxiv.org/abs/2207.09714}, 
       keywords={category:Calibration, ml: Neural networks, simulation: Agent-based modeling, application: Healthcare },
+      abstract={Mechanistic simulators are an indispensable tool for epidemiology
+to explore the behavior of complex, dynamic infections under varying conditions and navigate uncertain environments. Agent-based
+models (ABMs) are an increasingly popular simulation paradigm
+that can represent the heterogeneity of contact interactions with
+granular detail and agency of individual behavior. However, conventional ABM frameworks are not differentiable and present challenges in scalability; due to which it is non-trivial to connect them
+to auxiliary data sources. In this paper, we introduce GradABM:
+a scalable, differentiable design for agent-based modeling that is
+amenable to gradient-based learning with automatic differentiation.
+GradABM can quickly simulate million-size populations in few seconds on commodity hardware, integrate with deep neural networks
+and ingest heterogeneous data sources. This provides an array of
+practical benefits for calibration, forecasting, and evaluating policy interventions. We demonstrate the efficacy of GradABM via
+extensive experiments with real COVID-19 and influenza datasets.}
 }
 
 @article{EDALI2023102772,
@@ -69,7 +106,7 @@ YEAR={2021},
 URL={https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2021.726409},
 DOI={10.3389/fmicb.2021.726409},
 ISSN={1664-302X},
-ABSTRACT={<p>Agent-based modeling (ABM) is a powerful simulation technique which describes a complex dynamic system based on its interacting constituent entities. While the flexibility of ABM enables broad application, the complexity of real-world models demands intensive computing resources and computational time; however, a metamodel may be constructed to gain insight at less computational expense. Here, we developed a model in <italic>NetLogo</italic> to describe the growth of a microbial population consisting of <italic>Pantoea</italic>. We applied 13 parameters that defined the model and actively changed seven of the parameters to modulate the evolution of the population curve in response to these changes. We efficiently performed more than 3,000 simulations using a Python wrapper, <italic>NL4Py</italic>. Upon evaluation of the correlation between the active parameters and outputs by random forest regression, we found that the parameters which define the depth of medium and glucose concentration affect the population curves significantly. Subsequently, we constructed a metamodel, a dense neural network, to predict the simulation outputs from the active parameters and found that it achieves high prediction accuracy, reaching an <italic>R</italic><sup>2</sup> coefficient of determination value up to 0.92. Our approach of using a combination of ABM with random forest regression and neural network reduces the number of required ABM simulations. The simplified and refined metamodels may provide insights into the complex dynamic system before their transition to more sophisticated models that run on high-performance computing systems. The ultimate goal is to build a bridge between simulation and experiment, allowing model validation by comparing the simulated data to experimental data in microbiology.</p>},
+abstract={<p>Agent-based modeling (ABM) is a powerful simulation technique which describes a complex dynamic system based on its interacting constituent entities. While the flexibility of ABM enables broad application, the complexity of real-world models demands intensive computing resources and computational time; however, a metamodel may be constructed to gain insight at less computational expense. Here, we developed a model in <italic>NetLogo</italic> to describe the growth of a microbial population consisting of <italic>Pantoea</italic>. We applied 13 parameters that defined the model and actively changed seven of the parameters to modulate the evolution of the population curve in response to these changes. We efficiently performed more than 3,000 simulations using a Python wrapper, <italic>NL4Py</italic>. Upon evaluation of the correlation between the active parameters and outputs by random forest regression, we found that the parameters which define the depth of medium and glucose concentration affect the population curves significantly. Subsequently, we constructed a metamodel, a dense neural network, to predict the simulation outputs from the active parameters and found that it achieves high prediction accuracy, reaching an <italic>R</italic><sup>2</sup> coefficient of determination value up to 0.92. Our approach of using a combination of ABM with random forest regression and neural network reduces the number of required ABM simulations. The simplified and refined metamodels may provide insights into the complex dynamic system before their transition to more sophisticated models that run on high-performance computing systems. The ultimate goal is to build a bridge between simulation and experiment, allowing model validation by comparing the simulated data to experimental data in microbiology.</p>},
 keywords={category:Metamodeling, ml: Neural networks, ml: Random forest regression, simulation: Agent-based modeling, application: Biology },
 }
 
