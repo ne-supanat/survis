@@ -12,19 +12,6 @@
         "volume": "Volume 12 - 2021",
         "year": "2021"
     },
-    "535087": {
-        "abstract": "We demonstrate how neural networks can be used in conjunction with simulation modeling for system design. This approach is used to achieve the opposite of what a simulation model can achieve: given a set of desired performance measures, the neural network outputs a suitable design to meet management goals. The methodology is presented using a real world application involving the Test Operation of a major semiconductor manufacturing facility",
-        "author": "LeCroy, K. and Mollaghasemi, M. and Georgiopoulos, M.",
-        "booktitle": "Southcon/96 Conference Record",
-        "doi": "10.1109/SOUTHC.1996.535087",
-        "keywords": "category:Parameter Calibration, ml: MLP, simulation: System simulation, simulation: Discrete event simulation, application: Manufacture",
-        "number": "",
-        "pages": "322-326",
-        "title": "Application of neural networks and simulation modeling in manufacturing system design",
-        "type": "INPROCEEDINGS",
-        "volume": "",
-        "year": "1996"
-    },
     "Dehghani20223208": {
         "abstract": "Chemical reactions inside lithium-ion batteries generate heat and cause temperature rise. Hence, it is necessary to monitor battery time dependent heat generation. In this work, a hybrid model for simulating heat generation inside a pack of lithium batteries has been developed. An artificial neural network (ANN) has been employed to simulate electrochemical and thermal behaviors of a Panasonic NCR 18650 lithium-ion battery. In order to develop the hybrid model, the designed ANN has been inserted into ANSYS Fluent software through a C source code. A 3-D computation fluid dynamics (CFD) has been developed to simulate temperature distribution in the battery pack. Experimental data has been obtained using a NEWARE battery test system at different C-rates. The outputs of the proposed ANN consist of heat generation inside the battery as well as the electrochemical parameters. The combination of the ANN and CFD modeling, which led to a hybrid model, can be mentioned as the major contribution of this work. The results show an excellent consistency between the proposed model and test data. The simulation estimates the range of the manufacturer\u2019s working temperatures (-20 to 60 oC), regarding the considered batteries.",
         "author": "Dehghani, F. and Eslamloueyan, R. and Sarshar, M.",
@@ -72,25 +59,10 @@
         "volume": "4",
         "year": "1996"
     },
-    "FONSECA2003177": {
-        "abstract": "Simulation metamodeling has been a major research field during the last decade. The main objective has been to provide robust, fast decision support aids to enhance the overall effectiveness of decision-making processes. This paper discusses the importance of simulation metamodeling through artificial neural networks (ANNs), and provides general guidelines for the development of ANN-based simulation metamodels. Such guidelines were successfully applied in the development of two ANNs trained to estimate the manufacturing lead times (MLT) for orders simultaneously processed in a four-machine job shop. The design of intelligent systems such as ANNs may help to avoid some of the drawbacks of traditional computer simulation. Metamodels offer significant advantages regarding time consumption and simplicity to evaluate multi-criteria situations. Their operation is notoriously fast compared to the time required to operate conventional simulation packages.",
-        "author": "D.J. Fonseca and D.O. Navaresse and G.P. Moynihan",
-        "doi": "https://doi.org/10.1016/S0952-1976(03)00043-5",
-        "issn": "0952-1976",
-        "journal": "Engineering Applications of Artificial Intelligence",
-        "keywords": "category:Metamodeling, ml: MLP, simulation: System simulation, simulation: Discrete event simulation, application: Manufacture",
-        "number": "3",
-        "pages": "177-183",
-        "title": "Simulation metamodeling through artificial neural networks",
-        "type": "article",
-        "url": "https://www.sciencedirect.com/science/article/pii/S0952197603000435",
-        "volume": "16",
-        "year": "2003"
-    },
     "SAZULIBARRENA2024112596": {
         "abstract": "Simulating the evolution of the gravitational N-body problem becomes extremely computationally expensive as N increases since the problem complexity scales quadratically with the number of bodies. In order to alleviate this problem, we study the use of Artificial Neural Networks (ANNs) to replace expensive parts of the integration of planetary systems. Neural networks that include physical knowledge have rapidly grown in popularity in the last few years, although few attempts have been made to use them to speed up the simulation of the motion of celestial bodies. For this purpose, we study the advantages and limitations of using Hamiltonian Neural Networks to replace computationally expensive parts of the numerical simulation of planetary systems, focusing on realistic configurations found in astrophysics. We compare the results of the numerical integration of a planetary system with asteroids with those obtained by a Hamiltonian Neural Network and a conventional Deep Neural Network, with special attention to understanding the challenges of this specific problem. Due to the non-linear nature of the gravitational equations of motion, errors in the integration propagate, which may lead to divergence from the reference solution. To increase the robustness of a method that uses neural networks, we propose a hybrid integrator that evaluates the prediction of the network and replaces it with the numerical solution if considered inaccurate. Hamiltonian Neural Networks can make predictions that resemble the behavior of symplectic integrators but are challenging to train and in our case fail when the inputs differ \u223c7 orders of magnitude. In contrast, Deep Neural Networks are easy to train but fail to conserve energy, leading to fast divergence from the reference solution. The hybrid integrator designed to include the neural networks increases the reliability of the method and prevents large energy errors without increasing the computing cost significantly. For the problem at hand, the use of neural networks results in faster simulations when the number of asteroids is \u227370.",
         "author": "Veronica {Saz Ulibarrena} and Philipp Horn and Simon {Portegies Zwart} and Elena Sellentin and Barry Koren and Maxwell X. Cai",
-        "doi": "https://doi.org/10.1016/j.jcp.2023.112596",
+        "doi": "10.1016/j.jcp.2023.112596",
         "issn": "0021-9991",
         "journal": "Journal of Computational Physics",
         "keywords": "category:Hybrid model, ml: MLP, simulation: Numerical simulation, simulation: planetary system simulation,  application: Physics,",
@@ -100,6 +72,21 @@
         "url": "https://www.sciencedirect.com/science/article/pii/S0021999123006915",
         "volume": "496",
         "year": "2024"
+    },
+    "Weyant2022-rx": {
+        "abstract": "BACKGROUND: Personalizing medical treatments based on patient-specific risks and preferences can improve patient health. However, models to support personalized treatment decisions are often complex and difficult to interpret, limiting their clinical application. METHODS: We present a new method, using machine learning to create meta-models, for simplifying complex models for personalizing medical treatment decisions. We consider simple interpretable models, interpretable ensemble models, and noninterpretable ensemble models. We use variable selection with a penalty for patient-specific risks and/or preferences that are difficult, risky, or costly to obtain. We interpret the meta-models to the extent permitted by their model architectures. We illustrate our method by applying it to simplify a previously developed model for personalized selection of antipsychotic drugs for patients with schizophrenia. RESULTS: The best simplified interpretable, interpretable ensemble, and noninterpretable ensemble models contained at most half the number of patient-specific risks and preferences compared with the original model. The simplified models achieved 60.5\\% (95\\% credible interval [crI]: 55.2-65.4), 60.8\\% (95\\% crI: 55.5-65.7), and 83.8\\% (95\\% crI: 80.8-86.6), respectively, of the net health benefit of the original model (quality-adjusted life-years gained). Important variables in all models were similar and made intuitive sense. Computation time for the meta-models was orders of magnitude less than for the original model. LIMITATIONS: The simplified models share the limitations of the original model (e.g., potential biases). CONCLUSIONS: Our meta-modeling method is disease- and model- agnostic and can be used to simplify complex models for personalization, allowing for variable selection in addition to improved model interpretability and computational performance. Simplified models may be more likely to be adopted in clinical settings and can help improve equity in patient outcomes.",
+        "author": "Christopher Weyant and Margaret L Brandeau",
+        "doi": "10.1177/0272989X211037921",
+        "journal": "Med. Decis. Making",
+        "keywords": "category:Metamodeling, ml: MLP, ml: Random forest regression, simulation: System simulation, simulation: Agent-based modeling, application: Healthcare",
+        "month": "may",
+        "number": "4",
+        "pages": "450--460",
+        "publisher": "SAGE Publications",
+        "title": "Personalization of medical treatment decisions: Simplifying complex models while maintaining patient health outcomes",
+        "type": "ARTICLE",
+        "volume": "42",
+        "year": "2022"
     },
     "app9214495": {
         "abstract": "Hybrid simulation is a technique for testing mechanical systems. It applies to structures with elements hard or impossible to model numerically. These elements are tested experimentally by straining them by means of actuators, while the rest of the system is simulated numerically using a finite element method (FEM). Data is interchanged between experiment and simulation. The simulation is performed in real-time in order to accurately recreate the dynamic behavior in the experiment. FEM is very computationally demanding, and for systems with a great number of degrees of freedom (DOFs), real-time simulation with small-time steps (ensuring high accuracy) may require powerful computing hardware or may even be impossible. The author proposed to swap the finite element (FE) model with an artificial neural network (ANN) to significantly lower the computational cost of the real-time algorithm. The presented examples proved that the computational cost could be reduced by at least one number of magnitude while maintaining high accuracy of the simulation; however, obtaining appropriate ANN was not trivial and might require many attempts.",
@@ -120,6 +107,7 @@
         "abstract": "Mechanistic simulators are an indispensable tool for epidemiology to explore the behavior of complex, dynamic infections under vary\u0002ing conditions and navigate uncertain environments. Agent-based models (ABMs) are an increasingly popular simulation paradigm that can represent the heterogeneity of contact interactions with granular detail and agency of individual behavior. However, con\u0002ventional ABM frameworks are not differentiable and present chal\u0002lenges in scalability; due to which it is non-trivial to connect them to auxiliary data sources. In this paper, we introduce GradABM: a scalable, differentiable design for agent-based modeling that is amenable to gradient-based learning with automatic differentiation. GradABM can quickly simulate million-size populations in few sec\u0002onds on commodity hardware, integrate with deep neural networks and ingest heterogeneous data sources. This provides an array of practical benefits for calibration, forecasting, and evaluating pol\u0002icy interventions. We demonstrate the efficacy of GradABM via extensive experiments with real COVID-19 and influenza datasets.",
         "archiveprefix": "arXiv",
         "author": "Ayush Chopra and Alexander Rodr\u00edguez and Jayakumar Subramanian and Arnau Quera-Bofarull and Balaji Krishnamurthy and B. Aditya Prakash and Ramesh Raskar",
+        "doi": "10.48550/arXiv.2207.09714",
         "eprint": "2207.09714",
         "keywords": "category:Parameter Calibration, ml: MLP, simulation: System simulation, simulation: Agent-based modeling, application: Healthcare",
         "primaryclass": "cs.LG",
@@ -128,10 +116,28 @@
         "url": "https://arxiv.org/abs/2207.09714",
         "year": "2023"
     },
+    "d5c5c4ad-c172-36cb-a7cb-4ae3c8ae2095": {
+        "abstract": "Simulation modeling is often used in the design of manufacturing systems. With simulation modeling, however, the design process is a trial-and-error process; that is, an estimated \"good\" design is input to the model. Based upon the \"quality\" of this design, the designer may input a slightly perturbed design. This iterative process continues until the designer is \"satisfied.\" This process can be very time consuming. Neural networks can be used in conjunction with simulation modeling for system design to eliminate the trial-and-error process. This approach is used to achieve the opposite of what a simulation model can achieve. That is, given a set of desired performance measures, the neural network outputs a suitable design to meet management goals. In a real-world application, a major semiconductor manufacturing plant used this methodology to determine how the test operation should be operated to achieve the production goals.",
+        "author": "Mansooreh Mollaghasemi and Kenneth LeCroy and Michael Georgiopoulos",
+        "dio": "10.1287/inte.28.5.100",
+        "issn": "00922102, 1526551X",
+        "journal": "Interfaces",
+        "keywords": "category:Parameter Calibration, ml: MLP, simulation: System simulation, simulation: Discrete event simulation, application: Manufacture",
+        "number": "5",
+        "pages": "100--114",
+        "publisher": "INFORMS",
+        "title": "Application of Neural Networks and Simulation Modeling in Manufacturing System Design",
+        "type": "article",
+        "url": "http://www.jstor.org/stable/25062418",
+        "urldate": "2025-04-26",
+        "volume": "28",
+        "year": "1998"
+    },
     "kisamori2020modelbridgingconnectionsimulation": {
         "abstract": "The interpretability of machine learning, particularly for deep neural networks, is crucial for decision making in real-world applications. One approach is replacing the un-interpretable machine learning model with a surrogate model, which has a simple structure for interpretation. Another approach is understanding the target system by using a simula\u0002tion modeled by human knowledge with interpretable simulation param\u0002eters. Recently, simulator calibration has been developed based on kernel mean embedding to estimate the simulation parameters as posterior dis\u0002tributions. Our idea is to use a simulation model as an interpretable surrogate model. However, the computational cost of simulator calibra\u0002tion is high owing to the complexity of the simulation model. Thus, we propose a \u201cmodel-bridging\u201d framework to bridge machine learning models with simulation models by a series of kernel mean embeddings to address these difficulties. The proposed framework enables us to ob\u0002tain predictions and interpretable simulation parameters simultaneously without the computationally expensive calculations of the simulations. In this study, we apply the proposed framework to essential simulations in the manufacturing industry, such as production simulation and fluid dynamics simulation.",
         "archiveprefix": "arXiv",
         "author": "Keiichi Kisamori and Keisuke Yamazaki and Yuto Komori and Hiroshi Tokieda",
+        "doi": "10.48550/arXiv.1906.09391",
         "eprint": "1906.09391",
         "keywords": "category:Parameter Calibration, ml: MLP, simulation: System simulation, simulation: Discrete event simulation, simulation: Numerical simulation, simulation: fluid dynamic simulation, application: Manufacture, application: Physics",
         "primaryclass": "stat.ML",
